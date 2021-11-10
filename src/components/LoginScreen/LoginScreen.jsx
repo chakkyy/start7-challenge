@@ -67,7 +67,7 @@ export const LoginScreen = ({ setIsLoggedIn, isLoggedIn }) => {
               className="second-input"
               placeholder="Senha"
               autoComplete="off"
-              type="text"
+              type="password"
               name="password"
               value={formValues.password}
               onChange={handleInputChange}
