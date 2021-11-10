@@ -1,0 +1,133 @@
+.login__leftside-content {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.login__leftside-main-box {
+  height: 100%;
+  width: 70%;
+  margin-top: 120px;
+}
+
+.login__leftside-line-top {
+  height: 4px;
+  width: 32px;
+  display: block;
+  content: "";
+  background: #5594ef;
+}
+
+.login__leftside-title {
+  color: #5594ef;
+  margin-top: 24px;
+  width: 100%;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 34px;
+  line-height: 39px;
+}
+
+.login__leftside-text {
+  margin-top: 24px;
+  width: 361px;
+  height: 52px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 26px;
+  color: #5594ef;
+}
+
+.login__leftside-form {
+  width: 100%;
+  margin-top: 40px;
+  input {
+    width: 100%;
+    height: 56px;
+    padding: 16px 0;
+    padding-left: 24px;
+    border: 1px solid #cee0fa;
+  }
+  input::placeholder {
+    color: #9ec2f6;
+  }
+  .second-input {
+    margin-top: 20px;
+  }
+  p {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 24px;
+    margin-bottom: 40px;
+    align-items: center;
+    letter-spacing: 0.15px;
+    text-decoration-line: underline;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    color: #6da3f1;
+  }
+  button {
+    width: 100%;
+    display: flex;
+    cursor: pointer;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 54px;
+    background: #5594ef;
+    border-radius: 100px;
+  }
+}
+
+.login__bottom-button {
+  border: none;
+  color: white;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.login__bottom-text {
+  margin-top: 32px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 15px;
+  color: #6da3f1;
+}
+
+.login__social-media {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 24px;
+  margin-bottom: 30px;
+  .facebook {
+    margin-right: 33px;
+  }
+}
+
+.login__last-text {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 17px;
+  color: #5594ef;
+  span {
+    font-weight: bold;
+    margin-left: 4px;
+    cursor: pointer;
+  }
+}
